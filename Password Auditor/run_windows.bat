@@ -19,7 +19,7 @@ if %errorlevel% neq 0 (
 )
 
 :: Run the script
-python auditor.py
+python src\auditor.py
 
 echo.
 echo ==========================================
