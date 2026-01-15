@@ -6,6 +6,9 @@ echo ==========================================
 echo      LAUNCHING PASSWORD AUDITOR TOOL
 echo ==========================================
 echo.
+
+cd /d "%~dp0"
+
 echo [*] Initializing python environment...
 echo.
 
