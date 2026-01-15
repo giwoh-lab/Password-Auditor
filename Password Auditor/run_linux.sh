@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "$(dirname "$0")"
+
 # Clear terminal screen
 clear
 
@@ -18,7 +20,7 @@ if ! command -v python3 &> /dev/null; then
 fi
 
 # Run the script
-python3 auditor.py
+python3 src/auditor.py
 
 # Keep terminal open after exit
 echo
